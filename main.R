@@ -19,8 +19,8 @@ library(gemtc)
 
 source("scenario_setup.R")
 source("data_generation.R")
-source("analysis.R")
-source("simulation_runner.R")
+source("methods.R")
+source("simulation_run.R")
 
 # --- 1. Covariate definitions ------------------------------------------
 covdefs <- define_covariates()
